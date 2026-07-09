@@ -202,7 +202,10 @@ export default function VoiceUnlockApp() {
         offset += chunk.length;
       }
 
-      const audioBlob = floatTo16BitPCM(audioBuffer);
+      const audioBlob = floatTo16BitPCM(
+  audioBuffer,
+  audioContextRef.current?.sampleRate ?? 44100
+);
       setRecordings([...recordings, audioBlob]);
       setRecordingCount(recordingCount + 1);
     } catch (err) {
