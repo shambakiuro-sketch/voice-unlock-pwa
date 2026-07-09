@@ -522,7 +522,8 @@ const styles: { [key: string]: React.CSSProperties } = {
     alignItems: 'center',
     justifyContent: 'center',
     fontSize: 60,
-    marginVertical: 32,
+    marginTop: 32,
+marginBottom: 32,
     border: `3px solid ${COLORS.gold}`,
   },
   description: {
