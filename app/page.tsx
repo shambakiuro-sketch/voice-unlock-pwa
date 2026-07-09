@@ -116,7 +116,7 @@ export default function VoiceUnlockApp() {
 
   const audioContextRef = useRef<AudioContext | null>(null);
   const mediaStreamRef = useRef<MediaStream | null>(null);
-  const processorRef = useRef<ScriptProcessorAudioNode | null>(null);
+  const processorRef = useRef<AudioNode | null>(null);
   const recordedChunksRef = useRef<Float32Array[]>([]);
 
   useEffect(() => {
