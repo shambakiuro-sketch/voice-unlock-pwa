@@ -4,7 +4,7 @@ A Progressive Web App (PWA) for secure voice-based device unlock using MFCC voic
 
 Built for LASUASA (Lagos State University Architecture Students' Association) Elections.
 
-## 🎤 Features
+## 🎤  Features
 
 - ✅ Voice enrollment (5 recordings of passphrase)
 - ✅ Voice verification for device unlock
